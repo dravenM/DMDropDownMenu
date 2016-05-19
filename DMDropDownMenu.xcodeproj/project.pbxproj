@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009431D81CED4D590047CB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 009431D71CED4D590047CB90 /* main.m */; };
+		009431DB1CED4D590047CB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009431DA1CED4D590047CB90 /* AppDelegate.m */; };
+		009431DE1CED4D590047CB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009431DD1CED4D590047CB90 /* ViewController.m */; };
+		009431E11CED4D590047CB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009431DF1CED4D590047CB90 /* Main.storyboard */; };
+		009431E31CED4D590047CB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009431E21CED4D590047CB90 /* Assets.xcassets */; };
+		009431E61CED4D590047CB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009431E41CED4D590047CB90 /* LaunchScreen.storyboard */; };
+		009431F11CED4D590047CB90 /* DMDropDownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009431F01CED4D590047CB90 /* DMDropDownMenuTests.m */; };
+		009431FC1CED4D590047CB90 /* DMDropDownMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009431FB1CED4D590047CB90 /* DMDropDownMenuUITests.m */; };
+		0094320D1CED4D6D0047CB90 /* smalldown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0094320A1CED4D6D0047CB90 /* smalldown@2x.png */; };
+		0094320E1CED4D6D0047CB90 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0094320B1CED4D6D0047CB90 /* line@2x.png */; };
+		0094320F1CED4D6D0047CB90 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0094320C1CED4D6D0047CB90 /* down@2x.png */; };
+		009432131CED4DB40047CB90 /* DMDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 009432121CED4DB40047CB90 /* DMDropDownMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009431ED1CED4D590047CB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009431CB1CED4D580047CB90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009431D21CED4D590047CB90;
+			remoteInfo = DMDropDownMenu;
+		};
+		009431F81CED4D590047CB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009431CB1CED4D580047CB90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009431D21CED4D590047CB90;
+			remoteInfo = DMDropDownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009431D31CED4D590047CB90 /* DMDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009431D71CED4D590047CB90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		009431D91CED4D590047CB90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		009431DA1CED4D590047CB90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		009431DC1CED4D590047CB90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		009431DD1CED4D590047CB90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		009431E01CED4D590047CB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009431E21CED4D590047CB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009431E51CED4D590047CB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		009431E71CED4D590047CB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009431EC1CED4D590047CB90 /* DMDropDownMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMDropDownMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009431F01CED4D590047CB90 /* DMDropDownMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMDropDownMenuTests.m; sourceTree = "<group>"; };
+		009431F21CED4D590047CB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009431F71CED4D590047CB90 /* DMDropDownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMDropDownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009431FB1CED4D590047CB90 /* DMDropDownMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMDropDownMenuUITests.m; sourceTree = "<group>"; };
+		009431FD1CED4D590047CB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0094320A1CED4D6D0047CB90 /* smalldown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smalldown@2x.png"; sourceTree = "<group>"; };
+		0094320B1CED4D6D0047CB90 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		0094320C1CED4D6D0047CB90 /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		009432111CED4DB40047CB90 /* DMDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDropDownMenu.h; sourceTree = "<group>"; };
+		009432121CED4DB40047CB90 /* DMDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDropDownMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009431D01CED4D590047CB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009431E91CED4D590047CB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009431F41CED4D590047CB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009431CA1CED4D580047CB90 = {
+			isa = PBXGroup;
+			children = (
+				009431D51CED4D590047CB90 /* DMDropDownMenu */,
+				009431EF1CED4D590047CB90 /* DMDropDownMenuTests */,
+				009431FA1CED4D590047CB90 /* DMDropDownMenuUITests */,
+				009431D41CED4D590047CB90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009431D41CED4D590047CB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009431D31CED4D590047CB90 /* DMDropDownMenu.app */,
+				009431EC1CED4D590047CB90 /* DMDropDownMenuTests.xctest */,
+				009431F71CED4D590047CB90 /* DMDropDownMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009431D51CED4D590047CB90 /* DMDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				009432101CED4D980047CB90 /* DMDropDownMenu */,
+				009432091CED4D660047CB90 /* Image */,
+				009431D91CED4D590047CB90 /* AppDelegate.h */,
+				009431DA1CED4D590047CB90 /* AppDelegate.m */,
+				009431DC1CED4D590047CB90 /* ViewController.h */,
+				009431DD1CED4D590047CB90 /* ViewController.m */,
+				009431DF1CED4D590047CB90 /* Main.storyboard */,
+				009431E21CED4D590047CB90 /* Assets.xcassets */,
+				009431E41CED4D590047CB90 /* LaunchScreen.storyboard */,
+				009431E71CED4D590047CB90 /* Info.plist */,
+				009431D61CED4D590047CB90 /* Supporting Files */,
+			);
+			path = DMDropDownMenu;
+			sourceTree = "<group>";
+		};
+		009431D61CED4D590047CB90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				009431D71CED4D590047CB90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009431EF1CED4D590047CB90 /* DMDropDownMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				009431F01CED4D590047CB90 /* DMDropDownMenuTests.m */,
+				009431F21CED4D590047CB90 /* Info.plist */,
+			);
+			path = DMDropDownMenuTests;
+			sourceTree = "<group>";
+		};
+		009431FA1CED4D590047CB90 /* DMDropDownMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				009431FB1CED4D590047CB90 /* DMDropDownMenuUITests.m */,
+				009431FD1CED4D590047CB90 /* Info.plist */,
+			);
+			path = DMDropDownMenuUITests;
+			sourceTree = "<group>";
+		};
+		009432091CED4D660047CB90 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0094320A1CED4D6D0047CB90 /* smalldown@2x.png */,
+				0094320B1CED4D6D0047CB90 /* line@2x.png */,
+				0094320C1CED4D6D0047CB90 /* down@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		009432101CED4D980047CB90 /* DMDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				009432111CED4DB40047CB90 /* DMDropDownMenu.h */,
+				009432121CED4DB40047CB90 /* DMDropDownMenu.m */,
+			);
+			path = DMDropDownMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009431D21CED4D590047CB90 /* DMDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009432001CED4D590047CB90 /* Build configuration list for PBXNativeTarget "DMDropDownMenu" */;
+			buildPhases = (
+				009431CF1CED4D590047CB90 /* Sources */,
+				009431D01CED4D590047CB90 /* Frameworks */,
+				009431D11CED4D590047CB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMDropDownMenu;
+			productName = DMDropDownMenu;
+			productReference = 009431D31CED4D590047CB90 /* DMDropDownMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		009431EB1CED4D590047CB90 /* DMDropDownMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009432031CED4D590047CB90 /* Build configuration list for PBXNativeTarget "DMDropDownMenuTests" */;
+			buildPhases = (
+				009431E81CED4D590047CB90 /* Sources */,
+				009431E91CED4D590047CB90 /* Frameworks */,
+				009431EA1CED4D590047CB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009431EE1CED4D590047CB90 /* PBXTargetDependency */,
+			);
+			name = DMDropDownMenuTests;
+			productName = DMDropDownMenuTests;
+			productReference = 009431EC1CED4D590047CB90 /* DMDropDownMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		009431F61CED4D590047CB90 /* DMDropDownMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009432061CED4D590047CB90 /* Build configuration list for PBXNativeTarget "DMDropDownMenuUITests" */;
+			buildPhases = (
+				009431F31CED4D590047CB90 /* Sources */,
+				009431F41CED4D590047CB90 /* Frameworks */,
+				009431F51CED4D590047CB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009431F91CED4D590047CB90 /* PBXTargetDependency */,
+			);
+			name = DMDropDownMenuUITests;
+			productName = DMDropDownMenuUITests;
+			productReference = 009431F71CED4D590047CB90 /* DMDropDownMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009431CB1CED4D580047CB90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Draven_M;
+				TargetAttributes = {
+					009431D21CED4D590047CB90 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					009431EB1CED4D590047CB90 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 009431D21CED4D590047CB90;
+					};
+					009431F61CED4D590047CB90 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 009431D21CED4D590047CB90;
+					};
+				};
+			};
+			buildConfigurationList = 009431CE1CED4D580047CB90 /* Build configuration list for PBXProject "DMDropDownMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009431CA1CED4D580047CB90;
+			productRefGroup = 009431D41CED4D590047CB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009431D21CED4D590047CB90 /* DMDropDownMenu */,
+				009431EB1CED4D590047CB90 /* DMDropDownMenuTests */,
+				009431F61CED4D590047CB90 /* DMDropDownMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009431D11CED4D590047CB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009431E61CED4D590047CB90 /* LaunchScreen.storyboard in Resources */,
+				0094320E1CED4D6D0047CB90 /* line@2x.png in Resources */,
+				0094320F1CED4D6D0047CB90 /* down@2x.png in Resources */,
+				009431E31CED4D590047CB90 /* Assets.xcassets in Resources */,
+				0094320D1CED4D6D0047CB90 /* smalldown@2x.png in Resources */,
+				009431E11CED4D590047CB90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009431EA1CED4D590047CB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009431F51CED4D590047CB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009431CF1CED4D590047CB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009431DE1CED4D590047CB90 /* ViewController.m in Sources */,
+				009431DB1CED4D590047CB90 /* AppDelegate.m in Sources */,
+				009432131CED4DB40047CB90 /* DMDropDownMenu.m in Sources */,
+				009431D81CED4D590047CB90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009431E81CED4D590047CB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009431F11CED4D590047CB90 /* DMDropDownMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009431F31CED4D590047CB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009431FC1CED4D590047CB90 /* DMDropDownMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009431EE1CED4D590047CB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009431D21CED4D590047CB90 /* DMDropDownMenu */;
+			targetProxy = 009431ED1CED4D590047CB90 /* PBXContainerItemProxy */;
+		};
+		009431F91CED4D590047CB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009431D21CED4D590047CB90 /* DMDropDownMenu */;
+			targetProxy = 009431F81CED4D590047CB90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009431DF1CED4D590047CB90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009431E01CED4D590047CB90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		009431E41CED4D590047CB90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009431E51CED4D590047CB90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009431FE1CED4D590047CB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		009431FF1CED4D590047CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009432011CED4D590047CB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMDropDownMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Draven-M.DMDropDownMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		009432021CED4D590047CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMDropDownMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Draven-M.DMDropDownMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		009432041CED4D590047CB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMDropDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Draven-M.DMDropDownMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMDropDownMenu.app/DMDropDownMenu";
+			};
+			name = Debug;
+		};
+		009432051CED4D590047CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMDropDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Draven-M.DMDropDownMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMDropDownMenu.app/DMDropDownMenu";
+			};
+			name = Release;
+		};
+		009432071CED4D590047CB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DMDropDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Draven-M.DMDropDownMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DMDropDownMenu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		009432081CED4D590047CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DMDropDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Draven-M.DMDropDownMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DMDropDownMenu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009431CE1CED4D580047CB90 /* Build configuration list for PBXProject "DMDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009431FE1CED4D590047CB90 /* Debug */,
+				009431FF1CED4D590047CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009432001CED4D590047CB90 /* Build configuration list for PBXNativeTarget "DMDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009432011CED4D590047CB90 /* Debug */,
+				009432021CED4D590047CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		009432031CED4D590047CB90 /* Build configuration list for PBXNativeTarget "DMDropDownMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009432041CED4D590047CB90 /* Debug */,
+				009432051CED4D590047CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		009432061CED4D590047CB90 /* Build configuration list for PBXNativeTarget "DMDropDownMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009432071CED4D590047CB90 /* Debug */,
+				009432081CED4D590047CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009431CB1CED4D580047CB90 /* Project object */;
+}
