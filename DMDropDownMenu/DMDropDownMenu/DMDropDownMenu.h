@@ -32,6 +32,6 @@
 - (void)tapAction;
 - (void)setTitle:(NSString *)str;
 - (void)setTitleHeight:(CGFloat)height;
-
+- (void)awakeFromNib;
 
 @end

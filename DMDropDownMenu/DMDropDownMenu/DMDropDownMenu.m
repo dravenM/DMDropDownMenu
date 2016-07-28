@@ -24,6 +24,11 @@
     return self;
 }
 
+-(void)awakeFromNib{
+    [super awakeFromNib];
+    [self p_setUpView];
+    
+}
 
 - (void)setListArray:(NSArray *)arr
 {
