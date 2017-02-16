@@ -31,7 +31,6 @@
     dm2.delegate = self;
     [dm2 setListArray:dmArray2];
     [self.view addSubview:dm2];
-
     // Do any additional setup after loading the view, typically from a nib.
 }
 
